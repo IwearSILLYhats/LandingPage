@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<meta charset="UTF-8">
+    </head>
+
+    <body>
+        <div class="darkBlue">
+            <div class="topNav">
+                <h3>Header Logo</h3>
+                <div class="topRightNav">
+                    <div>header link one</div>
+                    <div>header link two</div>
+                    <div>header link three</div>
+                </div>
+            </div>
+
+            <div class="firstContent">
+                <div><h1>This website is awesome</h1>
+                <p style="font-size: 18px;">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button>Sign up</button></div>
+                <div class="image"> this is a placeholder for an image</div>
+            </div>
+        </div>
+
+        <div class="white">
+            <h3>Some Random Information</h3>
+            <div class="illustrations">
+                <div>
+                    <div class="box"></div>
+                    <div class="subtext">this is some subtext under an illustration or image</div>
+                </div>
+                <div>
+                    <div class="box"></div>
+                    <div class="subtext">this is some subtext under an illustration or image</div>
+                </div>
+                <div>
+                    <div class="box"></div>
+                    <div class="subtext">this is some subtext under an illustration or image</div>
+                </div>
+                <div>
+                    <div class="box"></div>
+                    <div class="subtext">this is some subtext under an illustration or image</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="grey">
+            <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.
+                <div class="attribution">-Thor, God of Thunder</div>
+            </div>
+            
+        </div>
+
+        <div class="lastContent">
+            <div class="lightBlue">
+                <div><div style="font-weight: bolder;">Call to action! It's time!</div>
+                <div>Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <div><button>Sign up</button></div>
+                </div>
+        </div>
+        <div class="footer darkBlue">Copyright © The Odin Project 2021</div>
+<style>
+    body{
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.darkBlue{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.topNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.topRightNav{
+    display: flex;
+    gap: 15px;
+}
+.firstContent{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 30px;
+
+}
+button{
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.lightBlue button{
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.image{
+    background-color: #6d747d;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+
+}
+.white{
+    padding: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+.subtext{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #1F2937;
+}
+.grey{
+    padding: 50px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.illustrations{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882F6;
+    border-radius: 10%;
+}
+.lastContent{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.lightBlue{
+    background-color: #3882F6;
+    width: 80%;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    gap: 30px;
+}
+.footer{
+    font-size: 11px;
+    padding: 20px;
+    text-align: center;
+}
+.quote{
+    color: #1F2937;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    justify-content: center;
+}
+.attribution{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 30px;
+}
+</style>
+    </body>
+
+</html>
